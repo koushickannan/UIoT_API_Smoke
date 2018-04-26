@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Suite]" parallel="tests">
+  <test name="Test on Rest API(failed)" parallel="tests">
+    <classes>
+      <class name="com.org.iot.test.smoke.Smoke">
+        <methods>
+          <include name="getContainerData"/>
+          <include name="createGroup"/>
+          <include name="createSubscriptionGroup"/>
+          <include name="updateCNT"/>
+          <include name="createContainer"/>
+          <include name="createSubscriptionAE"/>
+          <include name="updateAE"/>
+          <include name="createSubscriptionCNT"/>
+          <include name="createSubscriptionMetadata"/>
+          <include name="setupAutomation"/>
+        </methods>
+      </class> <!-- com.org.iot.test.smoke.Smoke -->
+    </classes>
+  </test> <!-- Test on Rest API(failed) -->
+</suite> <!-- Failed suite [API Suite] -->
